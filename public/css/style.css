@@ -23,6 +23,11 @@ html, body {
     color: black;
 }
 
+h1, h2{
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
 /* design of the navbar*/
 
 .navbarheight{
@@ -41,10 +46,6 @@ html, body {
 }
 
 /* col #1*/
-h1{
-    font-size: 4.5rem;
-    font-weight: bolder;
-}
 
 .btn_learnHTML, .btn_video, .btn_references {
     width: 200px;
@@ -56,11 +57,13 @@ h1{
 .btn_learnHTML{
     background-color: #04aa6d;
     border: 1px solid #04aa6d;
+    color: white;
 }
 
 .btn_learnHTML:hover{
     background-color: #088356;
     border: 1px solid #088356;
+    color: white;
 }
 
 .btn_video{
@@ -87,10 +90,45 @@ h1{
     color: black;
 }
 
-/* col #2*/
+/* col #2 USED ALSO FOR THE SECTION#2 example_img*/
 
 .example_img{
     border-radius: 10px;
 }
 
 /*                                                                  design of the section#2*/
+
+.section2{
+    height: 450px;
+}
+
+
+/*col#1*/
+
+.btn_learnSQL, .btn_SQLref{
+width: 200px;
+height: 45px;
+padding: 5px;
+border-radius: 25px;
+}
+
+.btn_learnSQL{
+    background-color: #04aa6d;
+    border: 1px solid #04aa6d;
+    color: white;
+}
+
+.btn_learnSQL:hover{
+    background-color: #088356;
+    border: 1px solid #088356;
+    color: white;
+}
+
+
+.btn_SQLref {
+
+}
+
+.btn_SQLref:hover {
+
+}
