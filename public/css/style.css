@@ -3,7 +3,6 @@ html, body {
     height: 100%;
     font-size:15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: whitesmoke;
 }
 
 *, *::before, *::after{ 
@@ -20,7 +19,69 @@ html, body {
     padding: 0;
 }
 
+.fas{
+    color: black;
+}
+
+/* design of the navbar*/
+
 .navbarheight{
     height: 150px;
+}
+
+.text-nav:hover{
+    color: red;
+}
+
+
+/* design of the section#1*/
+
+section{
+    height: 500px;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+.btn_learnHTML, .btn_video, .btn_references {
+    width: 200px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.btn_learnHTML{
+    background-color: #04aa6d;
+    border: 1px solid #04aa6d;
+}
+
+.btn_learnHTML:hover{
+    background-color: #088356;
+    border: 1px solid #088356;
+}
+
+.btn_video{
+    background-color: #fff4a3;
+    border: 1px solid #fff4a3;
+    color: black;
+}
+
+.btn_video:hover{
+    background-color: #ebe19a;
+    border: 1px solid #ebe19a;
+    color: black;
+}
+
+.btn_references{
+    background-color: #ffff;
+    border: 1px solid #ffff;
+    color: black;
+}
+
+.btn_references:hover{
+    background-color: rgb(231, 224, 224);
+    border: 1px solid rgb(231, 224, 224);
+    color: black;
 }
 
