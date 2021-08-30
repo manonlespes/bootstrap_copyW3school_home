@@ -1,22 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/bootstrap.min.css">
-    <link rel="stylesheet" href="public/css/style.css"> 
+    <link rel="stylesheet" href="public/css/style.css">
     <script src="https://kit.fontawesome.com/0e9c9dec41.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
 
-<nav>
+    <!---Début de ma barre de naviguation-->
 
-</nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-5 g-0">
+                <!---côté gauche de ma barre de navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbarheight offset-1">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/images/W3Schools_logo.svg.png" alt="" width="80" height="80">
+                    </a>
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navI7">
+                        <!---Je rajoute l'id dans le data-target-->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navI7">
+                        <!--nécessaire de mettre l'id pour le lien ensuite avec le bouton :)-->
+                        <!--Les liens du sites ul>li>a-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Tutorials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">References</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Exercises</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Videos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!---Fin du côté gauche col-6 de barre de navigation-->
+
+            <div class="col-6 g-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbarheight">
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navI7">
+                        <!---Je rajoute l'id dans le data-target-->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navI7">
+                        <!--nécessaire de mettre l'id pour le lien ensuite avec le bouton :)-->
+                        <!--Les liens du sites ul>li>a-->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-globe-europe"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-star-half-alt"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Spaces</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Paid Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Log in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!---Fin du côté col-6 droit de barre de naviguation-->
+        </div>
+        <!---Fin du row-->
+
+    </div>
+    <!---Fin du container-fluid-->
 
 
-<!--- <i class="fas fa-globe-europe"></i>
+    <!--- <i class="fas fa-globe-europe"></i>
     
     <i class="fas fa-search"></i>
     <i class="fas fa-star-half-alt"></i>
@@ -24,38 +102,39 @@
     --->
 
 
-<section>
-    <article>
+    <section>
+        <article>
 
-    </article>
+        </article>
 
-    <article>
+        <article>
 
-    </article>
-</section>
+        </article>
+    </section>
 
-<section>
-    <article></article>
+    <section>
+        <article></article>
 
-    <div class="container-fluid">
-        <div class="row">
+        <div class="container-fluid">
+            <div class="row">
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section>
-    <article></article>
-    <article></article>
-    <article></article>
-</section>
+    <section>
+        <article></article>
+        <article></article>
+        <article></article>
+    </section>
 
-<footer>
+    <footer>
 
 
-</footer>
-    
+    </footer>
+
 </body>
 
 <script src="public/js/bootstrap.bundle.min.js"></script>
+
 </html>
