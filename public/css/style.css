@@ -34,14 +34,16 @@ html, body {
 }
 
 
-/* design of the section#1*/
+/*                                                                  design of the section#1*/
 
-section{
-    height: 500px;
+.section1{
+    height: 450px;
 }
 
+/* col #1*/
 h1{
     font-size: 4.5rem;
+    font-weight: bolder;
 }
 
 .btn_learnHTML, .btn_video, .btn_references {
@@ -85,3 +87,10 @@ h1{
     color: black;
 }
 
+/* col #2*/
+
+.example_img{
+    border-radius: 10px;
+}
+
+/*                                                                  design of the section#2*/
