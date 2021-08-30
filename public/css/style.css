@@ -135,8 +135,8 @@ h3{
     font-weight: bold;
 }
 
-
-/*col#1*/
+/*row#1*/
+/*col#1 & col#2*/
 
 
 .php_container{
@@ -154,4 +154,36 @@ h3{
     height: 45px;
     padding: 5px;
     border-radius: 25px;
+}
+
+/*row#2*/
+
+.pink_container, .yellow_container, .smokewhite_container, .lightgreen_container, .lightblue_container, .green_container{
+    border-radius: 10px;
+    height: 100px;
+    width: 250px;
+}
+
+.pink_container{
+    background-color: #ffc0c7;
+}
+
+.yellow_container{
+    background-color: #fff4a3;
+}
+
+.smokewhite_container{
+    background-color: #dfd9d8;
+}
+
+.lightgreen_container{
+    background-color: #d9eee1;
+}
+
+.lightblue_container{
+    background-color: #8bc3c4;
+}
+
+.green_container{
+    background-color: #04aa6d;
 }
