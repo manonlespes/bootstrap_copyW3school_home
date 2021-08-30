@@ -124,11 +124,34 @@ border-radius: 25px;
     color: white;
 }
 
+/*                                                                  design of the section#3*/
 
-.btn_SQLref {
-
+.section3{
+    height: 850px;
 }
 
-.btn_SQLref:hover {
+h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
 
+
+/*col#1*/
+
+
+.php_container{
+    background-color: #ffc0c7;
+    border-radius: 10px;
+}
+
+.jquery_container{
+    background-color: #fff4a3;
+    border-radius: 10px;
+}
+
+.btn_learnjQ, .btn_learnPHP{
+    width: 200px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 25px;
 }
