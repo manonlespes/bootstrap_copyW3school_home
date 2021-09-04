@@ -300,3 +300,8 @@ footer{
     color: #04aa6d;
 }
 
+.fa-facebook-square, .fa-instagram, .fa-linkedin{
+    color: white;
+    width: 30px;
+    height: 30px;
+}
