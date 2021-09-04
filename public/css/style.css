@@ -256,3 +256,47 @@ h3{
     border-radius: 20px;
     font-weight: bold;
 }
+
+/*                                          design of the footer*/
+
+footer{
+    height: 900px;
+}
+
+.text_footer{
+    color: #ffc0c7 ;
+}
+
+.btn_started{
+    width: 200px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: #04aa6d;
+    border: 1px solid #04aa6d;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_started:hover{
+    background-color: #088356;
+    border: 1px solid #088356;
+    color: white;
+}
+
+.btn_footer{
+    font-weight: bold;
+}
+.btn_footer:hover{
+    opacity: 0.9;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: white;
+}
+
+.a_footer:hover{
+    color: #04aa6d;
+}
+
