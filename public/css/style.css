@@ -233,4 +233,25 @@ h3{
     font-size: 1.2rem;
 }
 
+/*                                          design of the section#6*/
 
+.section6{
+    height: 800px;
+    font-family: sans-serif;
+}
+
+.img_position{
+    position: relative;
+}
+
+.img_overlay{
+    z-index: 1;
+    position: absolute;
+}
+
+.btn_browser{
+    width: 700px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 20px;
+}
